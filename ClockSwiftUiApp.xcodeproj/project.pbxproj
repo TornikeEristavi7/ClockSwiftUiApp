@@ -29,19 +29,35 @@
 		5C569BF62D6923930065129E /* ClockSwiftUiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockSwiftUiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5C569C0C2D6923AA0065129E /* Exceptions for "ClockSwiftUiAppUITests" folder in "ClockSwiftUiAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ClockSwiftUiAppTests/ClockSwiftUiAppTests.swift,
+			);
+			target = 5C569BEB2D6923930065129E /* ClockSwiftUiAppTests */;
+		};
+		5C569C0D2D6923AA0065129E /* Exceptions for "ClockSwiftUiAppUITests" folder in "ClockSwiftUiAppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ClockSwiftUiAppTests/ClockSwiftUiAppTests.swift,
+			);
+			target = 5C569BF52D6923930065129E /* ClockSwiftUiAppUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5C569BDE2D6923910065129E /* ClockSwiftUiApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ClockSwiftUiApp;
 			sourceTree = "<group>";
 		};
-		5C569BEF2D6923930065129E /* ClockSwiftUiAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClockSwiftUiAppTests;
-			sourceTree = "<group>";
-		};
 		5C569BF92D6923930065129E /* ClockSwiftUiAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5C569C0C2D6923AA0065129E /* Exceptions for "ClockSwiftUiAppUITests" folder in "ClockSwiftUiAppTests" target */,
+				5C569C0D2D6923AA0065129E /* Exceptions for "ClockSwiftUiAppUITests" folder in "ClockSwiftUiAppUITests" target */,
+			);
 			path = ClockSwiftUiAppUITests;
 			sourceTree = "<group>";
 		};
@@ -76,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				5C569BDE2D6923910065129E /* ClockSwiftUiApp */,
-				5C569BEF2D6923930065129E /* ClockSwiftUiAppTests */,
 				5C569BF92D6923930065129E /* ClockSwiftUiAppUITests */,
 				5C569BDD2D6923910065129E /* Products */,
 			);
@@ -129,9 +144,6 @@
 			);
 			dependencies = (
 				5C569BEE2D6923930065129E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5C569BEF2D6923930065129E /* ClockSwiftUiAppTests */,
 			);
 			name = ClockSwiftUiAppTests;
 			packageProductDependencies = (
