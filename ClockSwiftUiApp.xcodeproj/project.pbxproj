@@ -29,23 +29,6 @@
 		5C569BF62D6923930065129E /* ClockSwiftUiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockSwiftUiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5C569C0C2D6923AA0065129E /* Exceptions for "ClockSwiftUiAppUITests" folder in "ClockSwiftUiAppTests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				ClockSwiftUiAppTests/ClockSwiftUiAppTests.swift,
-			);
-			target = 5C569BEB2D6923930065129E /* ClockSwiftUiAppTests */;
-		};
-		5C569C0D2D6923AA0065129E /* Exceptions for "ClockSwiftUiAppUITests" folder in "ClockSwiftUiAppUITests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				ClockSwiftUiAppTests/ClockSwiftUiAppTests.swift,
-			);
-			target = 5C569BF52D6923930065129E /* ClockSwiftUiAppUITests */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5C569BDE2D6923910065129E /* ClockSwiftUiApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -54,10 +37,6 @@
 		};
 		5C569BF92D6923930065129E /* ClockSwiftUiAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				5C569C0C2D6923AA0065129E /* Exceptions for "ClockSwiftUiAppUITests" folder in "ClockSwiftUiAppTests" target */,
-				5C569C0D2D6923AA0065129E /* Exceptions for "ClockSwiftUiAppUITests" folder in "ClockSwiftUiAppUITests" target */,
-			);
 			path = ClockSwiftUiAppUITests;
 			sourceTree = "<group>";
 		};
